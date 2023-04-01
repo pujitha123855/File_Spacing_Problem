@@ -1,0 +1,24 @@
+Input:-
+========
+
+File1
+    File2
+    File3
+File4
+        File5
+    File6
+            File7
+OutPut:-
+=======
+
+{File1=0, File2=1, File3=1, File4=0, File5=2, File6=1, File7=3}
+{File1=Null, File2=File1, File3=File1, File4=Null, File5=File3, File6=File4, File7=File5}
+File    ParentFile
+------------------
+File1   Null
+File2   File1
+File3   File1
+File4   Null
+File5   File3
+File6   File4
+File7   File5
