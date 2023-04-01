@@ -1,5 +1,5 @@
 import java.util.*;
-public class SpacesProblem {
+public class File_Space{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //int n=sc.nextInt();
